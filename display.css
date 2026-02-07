@@ -2,6 +2,7 @@
 
 html{
 	overflow-x: hidden;
+	
 }
 
 nav
@@ -20,21 +21,30 @@ h1, h2, h3, h4{
 
 h2{
 	border-bottom: 0.5rem solid orangered;
-	width:50vw;
+	
 	margin-top:4rem;
 	font-size:3rem;
 	margin-bottom:0rem;
+	width:60vw;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 h3{
 	font-size:1.5rem;
 	margin-top:3rem;
+	width:60vw;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 p{
 	
 	width:50vw;
 	font-size:1.5rem;
+	width:60vw;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 nav ul
@@ -89,23 +99,34 @@ main{
 	z-index:1;
 	position:relative;
 	padding:1rem;
-	margin-left:2rem;
+	width:80vw;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+}
+
+body{
+	margin-left:auto;
+	margin-right:auto;
 }
 
 img{
 	width:30vw;
+	
 }
 
 .sideHolder	{
 	display:flex;
-	
+	width:60vw;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .sideHolder .Sideimage{
-	margin-right:5vw;
+	margin:1vw;
 	border:0.3rem solid black;
-	width:auto;
-	height:20vw;
+	width:100%;
 }
 
 
@@ -117,9 +138,10 @@ img{
 }
 
 .projectCard{
-	width:30vw;
+	width:auto;
 	background-color:orangered;
 	border:0.3rem solid black;
+	margin:0.5vw;
 	margin-bottom:3rem;
 }
 
@@ -137,10 +159,7 @@ img{
 
 
 @media screen and (max-width: 1000px) {
-	img{
-		display:none;
-		right: 10000vw;
-	}
+	
 	
 	h2, p{
 	width:75vw;
@@ -148,12 +167,17 @@ img{
 }
 
 @media screen and (max-width: 600px) {
+	main{
+		text-align:center;
+	}
+	
 	h2, p{
 	text-align: center;
 	margin-left:auto;
 	margin-right:auto;
 	}
 	h3{
+		text-align:left;
 	margin-left:2rem;	
 	}
 	main{
@@ -171,5 +195,14 @@ img{
 	nav ul li
 	{
 	padding:5vw;
+	}
+	.sideHolder	{
+	text-align: center;
+	display: inline;
+	}
+	.sideHolder .Sideimage{
+	width:80vw;
+	height:auto;
+	margin:auto;
 	}
 }
