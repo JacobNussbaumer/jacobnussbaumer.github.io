@@ -142,6 +142,7 @@ img{
 	border:0.3rem solid black;
 	margin:0.5vw;
 	margin-bottom:3rem;
+
 }
 
 .projectCard img{
@@ -155,6 +156,12 @@ img{
 	text-align:center;
 }
 
+
+@media screen and (max-width: 1200px) {
+	.projectCard p{
+		font-size:1.2rem;
+	}
+}
 
 
 @media screen and (max-width: 1000px) {
@@ -174,6 +181,12 @@ img{
 	margin:auto;
 	margin-top:3vw;
 	}
+	.cardContainer{
+	grid-template-columns: auto;
+	}
+	.projectCard p{
+		font-size:1.5rem;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -187,7 +200,7 @@ img{
 	margin-right:auto;
 	}
 	h3{
-		text-align:left;
+	text-align:left;
 	margin-left:2rem;	
 	}
 	main{
@@ -207,10 +220,6 @@ img{
 	padding:5vw;
 	}
 	
-	
-	.cardContainer{
-	display: inline;
-	}
 	
 	
 }
