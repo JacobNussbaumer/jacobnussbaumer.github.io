@@ -130,7 +130,6 @@ img{
 }
 
 
-
 .cardContainer{
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -164,6 +163,17 @@ img{
 	h2, p{
 	width:75vw;
 	}
+	
+	.sideHolder	{
+	text-align: center;
+	display: inline;
+	}
+	.sideHolder .Sideimage{
+	width:80vw;
+	height:auto;
+	margin:auto;
+	margin-top:3vw;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -196,13 +206,11 @@ img{
 	{
 	padding:5vw;
 	}
-	.sideHolder	{
-	text-align: center;
+	
+	
+	.cardContainer{
 	display: inline;
 	}
-	.sideHolder .Sideimage{
-	width:80vw;
-	height:auto;
-	margin:auto;
-	}
+	
+	
 }
