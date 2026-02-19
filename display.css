@@ -157,14 +157,14 @@ img{
 }
 
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
 	.projectCard p{
 		font-size:1.2rem;
 	}
 }
 
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
 	
 	
 	h2, p{
@@ -189,7 +189,7 @@ img{
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
 	main{
 		text-align:center;
 	}
